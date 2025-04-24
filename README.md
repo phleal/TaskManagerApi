@@ -1,6 +1,6 @@
 # 📋 TaskManagerApi
 
-Uma API simples de gerenciamento de tarefas, construída com .NET 6, seguindo boas práticas de organização, documentação e padronização de respostas.
+Uma API simples de gerenciamento de tarefas, construída com .NET 8, seguindo boas práticas de organização, documentação e padronização de respostas.
 
 ---
 
@@ -57,7 +57,7 @@ A API utiliza a classe `BaseResponse` para unificar as respostas:
 
 - Acesse via navegador após rodar a aplicação:
 ```
-https://localhost:{porta}/swagger
+https://localhost:{porta}/swagger/index.html
 ```
 - Todas as rotas e modelos estão documentados com `[SwaggerOperation]`, `[SwaggerResponse]` e `[SwaggerSchema]`.
 
