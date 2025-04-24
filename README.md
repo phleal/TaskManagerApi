@@ -46,11 +46,7 @@ A API utiliza a classe `BaseResponse` para unificar as respostas:
 ```json
 {
   "success": true,
-  "message": "Tarefa criada com sucesso",
-  "data": {
-    "id": "123",
-    "title": "Estudar .NET",
-    ...
+  "message": "Tarefa criada com sucesso"
   }
 }
 ```
